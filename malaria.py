@@ -12,6 +12,7 @@ Created on Fri Oct  9 15:03:26 2020
 # protein names as values.
 #%%
 # create a dictionary of sequence ID's and protein names:
+Print("This script generates an output file containing the FASTA sequence with the respective protein names")
 prot_dict = dict()
 with open("malaria.blastx.tab") as protein:
     pread = protein.readlines() #pread is a list
